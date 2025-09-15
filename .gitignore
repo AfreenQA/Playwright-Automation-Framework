@@ -1,0 +1,60 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.package-lock.json
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE & OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env & secrets
+.env
+.env.*
+*.local
+
+# Playwright
+playwright-report/
+playwright/.cache/
+blob-report/
+ms-playwright/
+trace.zip
+*.trace.zip
+*.zip
+*.har
+*.mp4
+*.webm
+*.webp
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Allure
+allure-results/
+allure-report/
+
+# Test outputs
+test-results/
+coverage/
+*.log
+
+# Project-specific large artifacts
+partialScreenshot.png
+screenshot.png
+screenshot1.png
+
+# Cucumber
+reports/
+
+
+# GitHub Actions (avoid PAT workflow scope issues in this repo)
+.github/workflows/**
