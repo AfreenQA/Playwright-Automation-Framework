@@ -1,5 +1,11 @@
 # PlayWrightAutomationFramework
 
+[![CI](https://github.com/AfreenQA/Playwright-Automation-Framework/actions/workflows/ci.yml/badge.svg)](https://github.com/AfreenQA/Playwright-Automation-Framework/actions/workflows/ci.yml)
+![Node](https://img.shields.io/badge/node-18.x-339933?logo=node.js&logoColor=white)
+![Playwright](https://img.shields.io/badge/playwright-1.40%2B-2D6AE3)
+[![License: ISC](https://img.shields.io/github/license/AfreenQA/Playwright-Automation-Framework)](./LICENSE)
+[![Allure Report](https://img.shields.io/badge/allure-report-FF5A5F)](https://github.com/AfreenQA/Playwright-Automation-Framework/actions)
+
 A Playwright end-to-end testing framework with JavaScript and TypeScript specs, Cucumber BDD, and Page Object Model. Includes API testing utilities, parallel execution, multiple browsers, and Allure reporting.
 
 ## Features
@@ -107,6 +113,19 @@ Typical flow:
 - Use token and order id in UI flows
 
 Troubleshooting: if API returns an error (e.g., `{ message: 'Wrong Product ID' }`), ensure product IDs and payload match the backend expectations, and harden parsing to handle error shapes.
+
+## Screenshots
+
+Add screenshots to `docs/screenshots/` and reference them here.
+
+Example:
+
+```markdown
+![Login test report](docs/screenshots/login-report.png)
+![Visual comparison diff](docs/screenshots/visual-diff.png)
+```
+
+You can capture screenshots in tests using Playwright's `page.screenshot()` and save to `docs/screenshots/` for documentation.
 
 ## Troubleshooting
 
